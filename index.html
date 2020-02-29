@@ -2,7 +2,7 @@
 <html xmlns="">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Lnid-Developers</title>
+<title>G-Luper Technologies</title>
 <meta name="keywords" content="free css templates, web design, 2-column, html css" />
 <meta name="description" content="Web Design is a 2-column website template (HTML/CSS) provided by templatemo.com" />
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
@@ -34,7 +34,29 @@ $(document).ready(function() {
 <!--////// END  \\\\\\\-->
 </head>
 <body>
+    <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v6.0'
+          });
+        };
 
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="111658157079784">
+      </div>
 <div id="templatemo_body_wrapper">
 <div id="templatemo_wrapper">
 
@@ -42,9 +64,9 @@ $(document).ready(function() {
     	<span id="header_icon"></span>
     	<div id="header_content">
         	<div id="site_title">
-				<a href="#" target="_parent"><img src="" alt="" /></a>            </div>
-                <p style="color: brown;"font size="50px;">Lnid-Developers</p>
-         <a href="AboutUs.html" class="detail float_r">Detail</a>
+				<a href="#" target="_parent"><img src="#" alt="" /></a>            </div>
+                <p style="color: brown;"font size="50px;"></p>
+         <a href="AboutUs.html" class="detail float_r"></a>
 		</div>
     </div> <!-- end of header -->
     <div id="tooplate_middle">   
@@ -117,7 +139,7 @@ $(document).ready(function() {
         <div id="templatemo_content">
         	
             <div class="content_box">
-            	<h2 style="color: blue;">Welcome To Lnid-Developers</h2>
+            	<h2 style="color: blue;">Welcome To G-Luper Technologies</h2>
                 <a href="http://www.templatemo.com/page/1" target="_parent"><img class="image_wrapper image_fl" src="images/CL1.png" alt="Image 1" /></a>
                 <h5>ENTERPRISE SOFTWARE DEVELOPMENT</h5>
                 <p>Need a solid software foundation for your business? Uncoordinated mobile apps and software stress out your employees and impede your productivity? Leverage our decade-long expertise in enterprise software development, API integration, modernising legacy systems, and consolidating app portfolios.</p>
@@ -125,7 +147,7 @@ $(document).ready(function() {
               <div class="cleaner h30"></div>
                 <a href="http://www.templatemo.com/page/2" target="_parent"><img class="image_wrapper image_fl" src="images/cl2.jpg" alt="Image 2" /></a>
               <h5>DESKTOP APPLICATION DEVELOPMENT</h5>
-              <p> Need to plan and manage your projects and programs on desktop? We helps you develop such software using programming language of your choice, set goals and execute on them with real-time, cross-project reporting. When you need to deliver on-time and on-budget, Lnid-Developers got it sorted.</p>
+              <p> Need to plan and manage your projects and programs on desktop? We helps you develop such software using programming language of your choice, set goals and execute on them with real-time, cross-project reporting. When you need to deliver on-time and on-budget, G-Luper Technologies got it sorted.</p>
               <p> <a href="ReadDesktop.html">Read More</a></p>
           </div>
             
@@ -135,7 +157,7 @@ $(document).ready(function() {
                 
                   <h2 class="title_icon why_choose_us">Why Us?</h2>
                     
-                    <p>Lnid-Developers always keeps track of new technologies to deliver advanced enterprise software solutions. The latest tech give you many crucial benefits, from the highest level of security with blockchain — to reliable automation with Artificial Intelligence based algorithms like machine learning.</p>
+                    <p>G-Luper Technologies always keeps track of new technologies to deliver advanced enterprise software solutions. The latest tech give you many crucial benefits, from the highest level of security with blockchain — to reliable automation with Artificial Intelligence based algorithms like machine learning.</p>
                     <ul class="tmo_list">
                     	<li><a href="Readenterprise.html"><h3 style="color: blue;">Web Application</a></li></h1>
                       	<li><a href="ReadAndriod.html"><h3 style="color: blue;">Android Application</a></li></h3>
@@ -183,7 +205,7 @@ $(document).ready(function() {
 
 <div id="templatemo_footer_wrapper">
 	<div id="templatemo_footer" style="color: blue;">
-        Copyright © 2020 <a href="#" style="color: blue;">Lnid-Developers</a> 
+        <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |<a href="readme.html" style="color: blue;">G-Luper Technologies</a</p>
                 
     </div>
 </div>
